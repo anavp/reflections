@@ -17,6 +17,7 @@ organized? How would branches help?
 Ans: As mentioned in the lecture, branches would be very helpful in a situation when we need to make a drastic experimental change and we want to keep working on our already working code too. So we can create a branch from our already working branch and our new branch would contain all of our previous files and now, we can work on our experimental change without any fear.
 
 How do the diagrams help you visualize the branch structure?
+Ans: The diagrams are immensely helpful as due to the diagram, I don't have to examine the logs of each branch to where one branch branches out and what are the subsequent commits made to each branch after the common commit.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
