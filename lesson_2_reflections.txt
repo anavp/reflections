@@ -14,6 +14,7 @@ Ans: Whenever you are going to commit, if you have any doubts that whether you h
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Ans: As mentioned in the lecture, branches would be very helpful in a situation when we need to make a drastic experimental change and we want to keep working on our already working code too. So we can create a branch from our already working branch and our new branch would contain all of our previous files and now, we can work on our experimental change without any fear.
 
 How do the diagrams help you visualize the branch structure?
 
