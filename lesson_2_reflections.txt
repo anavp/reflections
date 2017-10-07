@@ -52,5 +52,6 @@ git commit -m "commit message"
 git init : initializes a repository
 git gc : runs git's garbage collection. Deletes unreachable commits without commit ids
 git show commitid : shows differences between a commit and it's parent
+git merge branch1 branch2 : merges branch1 and branch2. branch1 is merged into branch2 if branch2 checked out and vice versa.
 
 
