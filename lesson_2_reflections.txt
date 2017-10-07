@@ -10,6 +10,7 @@ As for how staging area is different from the working directory and the reposito
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+Ans: Whenever you are going to commit, if you have any doubts that whether you have made only one logical change or not, you can check that by using the commmand git diff --staged, given that your commit is ready to be committed i.e. you have the files you were going to commit to the staging area already. Now, git diff --staged compares the files in your staging area to the last commit you made. So, in this way, you can check if you have made only one logical change or not.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
@@ -21,3 +22,27 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+
+
+
+
+Wow, I am super confused right now. Let type all the git commands here from now on:
+git log
+git log --stat
+git diff -u commit1 commit2
+git diff : compares b/w working area and staging area which by default contains the last commit
+git diff --staged: compares b/w staging area and the last commit
+git status
+git branch : shows the list of branches
+git branch branchname : creates a branch called branchname
+git checkout commitID
+git checkout master : changes from detached head state to normal
+git checkout branchname : command for shifting the specified branch
+git add file name
+git add *
+git commit
+git commit -m "commit message"
+git init : initializes a repository
+
+
