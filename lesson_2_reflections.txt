@@ -51,5 +51,6 @@ git commit
 git commit -m "commit message"
 git init : initializes a repository
 git gc : runs git's garbage collection. Deletes unreachable commits without commit ids
+git show commitid : shows differences between a commit and it's parent
 
 
