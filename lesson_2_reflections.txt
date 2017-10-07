@@ -43,6 +43,7 @@ git branch branchname : creates a branch called branchname
 git checkout commitID
 git checkout master : changes from detached head state to normal
 git checkout branchname : command for shifting the specified branch
+git checkout -b newbranchname : if you are at head and want to create a new branch containing the last commit and all of it's subsequent parents then use the mentioned command.
 git add file name
 git add *
 git commit
