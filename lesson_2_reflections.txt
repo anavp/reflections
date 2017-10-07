@@ -33,6 +33,7 @@ git log
 git log --stat
 git log --graph --oneline branch1 branch2 : Displays commits in two branches in a comparable way. --oneline makes the
 output easier to understand.
+git log branch : shows log of branch "branch"
 git diff -u commit1 commit2
 git diff : compares b/w working area and staging area which by default contains the last commit
 git diff --staged: compares b/w staging area and the last commit
