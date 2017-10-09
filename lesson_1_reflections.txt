@@ -1,7 +1,5 @@
 If you want to compare two text files and find the differences between them. Then you can use the following nifty little command to do so:
 diff -u [file_name1] [file_name2]
-That's it for now.
-See ya.
 
 Reflect:Using History for efficiency
 The question for now:
@@ -21,9 +19,6 @@ Multi-File Commits:
 Here's the question for the chapter:
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 Well, as mentioned in the video lectures, git is purposefully made for coding, and the coding often requires multiple related files say, if you want to go the very basic, the header files in c or c++ or the packages in python and ros.
-Anyway, that's all for now.
-See ya later!
-
 
 Using Git to View History:
 So here we are again.
@@ -49,17 +44,14 @@ Well, the lecture above does kinda answer this one doesn't it?
 
 Confidence from Version Control:
 The name of the this reflection is kind of self-explanatory, isn't it?
-Well if isn't, let me tell ya:
+Well if isn't, let me tell you:
 Consider that you while writing a program and making a major logic change from one logic to another i.e. consider that you were writing a function to accomplish to a particular task and then you found out about a potential algo which accomplishes the same task in a much easier and speedy (I don't know whether this word actually exists or not, but bear with me) fashion. Now, you want to check the algo out by trying to implement it in your code. Now I don't about you, but I would go about doing that in two possible ways. Them being:
 1. I would save a copy of my previous code else somewhere so that I can happily try and implement the new better algo without losing my already perfectly working if slower previous algo, and this is where git comes into play as it does exactly that.
-2. I would try and create a another short program implementing jsut that algo. Well, I can do that but having the option to implement the algo directly into my code is just a much better option, no?
+2. I would try and create a another short program implementing just that algo. Well, I can do that but having the option to implement the algo directly into my code is just a much better option, no?
 
 Now, for the question:
 How might using version control make you more confident to make changes that could break something?
 This, I kind of did answer already but not properly enough. If I didn't have the option of version control and by this I mean even manual copy pasting version control, obviously anyone would hesitate to change anything major for the promise of a better performance of code. They would mostly prefer to keep the slower or worse performing but working piece of code instead of trying to implement the new method. So yeah, version control does makes anyone more confident for the person knows that he/she doesn't have anything to worry about if they try and implement a new method/algo for their previous version is gonna be there if they need it.
-Well, there's that.
-See ya!
-
 
 Git usage:
 How do I want to use git?

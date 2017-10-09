@@ -59,3 +59,4 @@ git merge branch1 branch2 branch3 ... : will merge branches branch1, branch2, br
 git merge --abort : will abort merge. used when there's a auto-merging conflict.
 
 
+**For people who don't get l.o.c which I suspect is everyone especially since made that up for myself, l.o.c is 'list of commands'
