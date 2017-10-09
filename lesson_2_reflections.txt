@@ -57,6 +57,10 @@ git show commitid : shows differences between a commit and it's parent
 git merge branch1 branch2 : merges branch1 and branch2. branch1 is merged into branch2 if branch2 checked out and vice versa.
 git merge branch1 branch2 branch3 ... : will merge branches branch1, branch2, branch3 ... into the branch checked out
 git merge --abort : will abort merge. used when there's a auto-merging conflict.
+git remote : shows list of all remote repos
+git remote add [remote_name] [url] : adds a remote for the url
+git push [remote_name] [branch] : pushes the commits of branch to remote
+git remote -v : shows push and fetch url 
 
 
 **For people who don't get l.o.c which I suspect is everyone especially since made that up for myself, l.o.c is 'list of commands'
