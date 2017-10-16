@@ -47,6 +47,7 @@ git checkout commitID
 git checkout master : changes from detached head state to normal
 git checkout branchname : command for shifting the specified branch
 git checkout -b newbranchname : if you are at head and want to create a new branch containing the last commit and all of it's subsequent parents then use the mentioned command.
+git checkout [filename]: resets the [filename] to the last commit version
 git add file name
 git add *
 git commit
@@ -61,6 +62,7 @@ git remote : shows list of all remote repos
 git remote add [remote_name] [url] : adds a remote for the url
 git push [remote_name] [branch] : pushes the commits of branch to remote
 git remote -v : shows push and fetch url 
+git reset --hard: resets all the files back to their last commit version
 
 
 **For people who don't get l.o.c which I suspect is everyone especially since made that up for myself, l.o.c is 'list of commands'
