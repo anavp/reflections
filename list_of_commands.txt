@@ -1,0 +1,32 @@
+git log
+git log --stat
+git log --graph --oneline branch1 branch2 : Displays commits in two branches in a comparable way. --oneline makes the
+output easier to understand.
+git log branch : shows log of branch "branch"
+git diff -u commit1 commit2
+git diff : compares b/w working area and staging area which by default contains the last commit
+git diff --staged: compares b/w staging area and the last commit
+git status
+git branch : shows the list of branches
+git branch branchname : creates a branch called branchname
+git checkout commitID
+git checkout master : changes from detached head state to normal
+git checkout branchname : command for shifting the specified branch
+git checkout -b newbranchname : if you are at head and want to create a new branch containing the last commit and all of it's subsequent parents then use the mentioned command.
+git checkout [filename]: resets the [filename] to the last commit version
+git add file name
+git add *
+git commit
+git commit -m "commit message"
+git init : initializes a repository
+git gc : runs git's garbage collection. Deletes unreachable commits without commit ids
+git show commitid : shows differences between a commit and it's parent
+git merge branch1 branch2 : merges branch1 and branch2. branch1 is merged into branch2 if branch2 checked out and vice versa.
+git merge branch1 branch2 branch3 ... : will merge branches branch1, branch2, branch3 ... into the branch checked out
+git merge --abort : will abort merge. used when there's a auto-merging conflict.
+git remote : shows list of all remote repos
+git remote add [remote_name] [url] : adds a remote for the url
+git push [remote_name] [branch] : pushes the commits of branch to remote
+git remote -v : shows push and fetch url 
+git reset --hard: resets all the files back to their last commit version
+
